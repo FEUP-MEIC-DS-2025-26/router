@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "path": "/test",
+      "destination": "https://google.com"
+    },
+		{
+			"path": "/",
+			"destination": "https://34.120.162.36"
+		}
+  ]
+}
