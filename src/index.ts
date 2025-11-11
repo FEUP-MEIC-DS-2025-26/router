@@ -1,11 +1,10 @@
-import routesJSON from './routes.json';
-
+import { routes } from './routes';
 
 export default {
 	async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
 		const url = new URL(request.url);
 
-		for (const route of routesJSON.routes) {
+		for (const route of routes) {
 			console.log(`Checking route: ${route.path} -> ${route.destination}`);
 			if (url.pathname.startsWith(route.path)) {
 				console.log(`Proxying request for ${url.pathname} to ${route.destination}`);
