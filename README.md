@@ -65,6 +65,8 @@ To add a new route, you need to:
 2.  Open `src/routes.ts`.
 3.  Add a new route object to the `routes` array, **remembering the priority order**.
 
+After adding the route, open a Pull Request to have it reviewed and merged. To speed up the review process, you can contact Henrique Sardo Fernandes on Teams. If the review is taking too long, feel free to contact anyone from the T01G01 group.
+
 ```typescript
 export const routes: Route[] = [
 	{
