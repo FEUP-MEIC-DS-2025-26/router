@@ -3,8 +3,8 @@ import { routes } from "./routes";
 export default {
 	async fetch(
 		request: Request,
-		env: Env,
-		ctx: ExecutionContext,
+		_env: Env,
+		_ctx: ExecutionContext,
 	): Promise<Response> {
 		const url = new URL(request.url);
 
