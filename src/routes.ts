@@ -5,7 +5,8 @@ export interface Route {
 
 export const routes: Route[] = [
 	{
-		path: '/',
-		destination: 'https://landing-page-1066898156877.europe-southwest1.run.app/',
+		path: "/",
+		destination:
+			"https://landing-page-1066898156877.europe-southwest1.run.app/",
 	},
 ];
