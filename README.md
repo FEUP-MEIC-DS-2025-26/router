@@ -56,6 +56,8 @@ npm run deploy
 
 Note: Deployment is handled automatically via GitHub Actions on push to the `main` branch.
 
+PRs will have a preview deployment thanks to Cloudflare Workers, so you can test your PR before deployment.
+
 ## Adding a new route
 
 To add a new route, you need to:
