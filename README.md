@@ -1,3 +1,7 @@
+# WARNING
+
+DO NOT USE, DEPRECATED
+
 # Micro-frontend Router
 
 ## Overview
